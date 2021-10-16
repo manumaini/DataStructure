@@ -1,2 +1,2 @@
 # DataStructure
-This Repo contains the data structure codes and algorthms.
+This Repo contains the data structure codes and algorithms.
