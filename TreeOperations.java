@@ -165,7 +165,7 @@ public class TreeOperations {
 		
 	}
 	
-	//iterative BST
+	//iterative BFT
 	void breadthFirstTraversal(Node head) {
 		Queue<Node> q = new LinkedList<Node>();
 		q.add(head);
@@ -185,9 +185,14 @@ public class TreeOperations {
 		
 	}
 	
+	//recursive BFT
+	void breadthFirstTraversalR(Node head) {
+			
+	}
 	
 	
 	
+	//Height of the Tree
 	void heightOfTree(Node head) {
 		int height= 0;
 		Queue<Node> q = new LinkedList<Node>();
@@ -216,12 +221,10 @@ public class TreeOperations {
 	}
 	
 	
-	//recursive bft
-	void breadthFirstTraversalR(Node head) {
-		
-	}
 	
+	//height of the tree recursive 
 	int heightOfTreeR(Node head) {
+		
 		if(head == null) {
 			return 0;
 		}else {
