@@ -165,6 +165,27 @@ public class TreeOperations {
 		
 	}
 	
+	
+	//check sum property
+	
+	boolean checkChildrenSum(Node root) {
+		
+		int left = 0 , right = 0;
+		
+		if(root == null || (root.left == null && root.right == null )) {
+			return false;
+		}
+		
+		if(root.left != null) left = root.left.data;
+		if(root.right != null) right = root.right.data;
+		
+		if(root.data == left+right && checkChildrenSum(root.left) && checkChildrenSum(root.right)) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
 	//iterative BFT
 	void breadthFirstTraversal(Node head) {
 		Queue<Node> q = new LinkedList<Node>();
