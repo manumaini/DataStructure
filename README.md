@@ -1,2 +1,3 @@
 # DataStructure & Algorithms
-This Repo contains the data structure codes and algorithms.
+I'm posting all the DSA practice code here . 
+happy coding :) 
